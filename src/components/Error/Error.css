@@ -1,0 +1,31 @@
+.error {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.error {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap; }
+  .error__text {
+    font-size: 30px;
+    font-weight: 500; }
+  .error__link {
+    font-size: 24px;
+    color: #5eb707; }
+    .error__link:hover {
+      text-decoration: underline; }
+
+/*# sourceMappingURL=Error.css.map */

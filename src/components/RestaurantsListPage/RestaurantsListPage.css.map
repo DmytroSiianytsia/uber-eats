@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,iBAAkB;EAClB,YAAY,CAAC,MAAM;EAEjB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,iDAAiD;EACxE,GAAG,EAAE,SAAS;EAEd,yBAA2C;IAP7C,iBAAkB;MAQd,YAAY,CAAC,MAAM;MAEnB,OAAO,EAAE,IAAI;EAGf,yBAAuC;IAbzC,iBAAkB;MAcd,YAAY,CAAC,MAAM",
+"sources": ["RestaurantsListPage.scss"],
+"names": [],
+"file": "RestaurantsListPage.css"
+}
