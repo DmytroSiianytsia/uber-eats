@@ -106,7 +106,7 @@ export class Header extends Component {
 
             <a
               className="header__link"
-              href="/"
+              href="#"
             >
               Sign In
             </a>
