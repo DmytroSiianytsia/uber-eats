@@ -1,4 +1,4 @@
-@import "../../styles/utils.scss";
+@import "../../styles/utils";
 
 .restaurant-card {
   --height: 367px;
@@ -7,6 +7,13 @@
   width: 100%;
 
   cursor: pointer;
+
+  transition: 400ms;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 9px $color-green;    
+  }
 
   @media (max-width: $break-point-phone) {
     --height: 330px;

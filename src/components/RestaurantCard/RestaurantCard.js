@@ -7,8 +7,7 @@ export const RestaurantCard = props => {
     imageUrl,
     title,
     categories,
-    etaRange,
-    // uuid,
+    etaRange,    
   } = props;
 
   return (
@@ -25,8 +24,7 @@ export const RestaurantCard = props => {
   );
 };
 
-RestaurantCard.propTypes = {
-  // uuid: PropTypes.string.isRequired,
+RestaurantCard.propTypes = {  
   imageUrl: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   categories: PropTypes.arrayOf(PropTypes.string),

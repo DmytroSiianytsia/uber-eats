@@ -1,5 +1,5 @@
-import React, { PureComponent, createRef } from 'react'
-import PropTypes from 'prop-types'
+import React, { PureComponent, createRef } from 'react';
+import PropTypes from 'prop-types';
 import './Input.css';
 
 export class Input extends PureComponent {

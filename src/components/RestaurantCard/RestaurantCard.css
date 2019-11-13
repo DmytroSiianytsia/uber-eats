@@ -2,7 +2,14 @@
   --height: 367px;
   height: var(--height);
   width: 100%;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: 400ms;
+  transition: 400ms; }
+  .restaurant-card:hover {
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+    -webkit-box-shadow: 5px 5px 9px #5eb707;
+            box-shadow: 5px 5px 9px #5eb707; }
   @media (max-width: 550px) {
     .restaurant-card {
       --height: 330px; } }
