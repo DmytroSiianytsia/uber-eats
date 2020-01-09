@@ -32,8 +32,8 @@ export class Input extends PureComponent {
     const inputWrapperClass = `control__input-wrapper ${isFocused
       ? 'control__input-wrapper--focused' : ''} ${className}`;
 
-    const inputClass = `control__input ${isFocused}
-      ? 'control__input--small' : ${isSmall} ${className}`;
+    const inputClass = `control__input ${isFocused
+      ? 'control__input--small' : isSmall} ${className}`;
 
     return (
       <label className="control">

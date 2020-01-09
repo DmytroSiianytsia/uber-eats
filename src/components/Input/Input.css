@@ -25,7 +25,7 @@
   max-height: 24px;
   line-height: 24px; }
   @media (max-width: 956px) {
-    .control__input--small {
+    .control__input {
       max-width: 75px; } }
 .control__label {
   font-size: 14px;
