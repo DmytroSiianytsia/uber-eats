@@ -36,6 +36,8 @@ export class Header extends Component {
     isMobileDeliveryInfoVisible: false,
   });
 
+  reload = () => document.location.reload(true);
+
   render() {
     const {
       address,
@@ -53,6 +55,7 @@ export class Header extends Component {
               src="./images/logo.svg"
               alt="Uber Eats"
               className="header__logo"
+              onClick={this.reload}
             />
 
             <div className="header__delivery-info">

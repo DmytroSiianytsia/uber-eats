@@ -20,7 +20,8 @@
   background-color: #fff; }
   .header__logo {
     height: 24px;
-    width: auto; }
+    width: auto;
+    cursor: pointer; }
     @media (max-width: 550px) {
       .header__logo {
         height: 14px; } }

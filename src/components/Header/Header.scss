@@ -18,6 +18,8 @@
     height: 24px;
     width: auto;
 
+    cursor: pointer;
+
     @media (max-width: $break-point-phone) {
       height: 14px;
     }
