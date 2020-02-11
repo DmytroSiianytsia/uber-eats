@@ -16,8 +16,10 @@
 .restaurant-card__img-block {
   overflow: hidden;
 }
-.restaurant-card__img {
+.restaurant-card__img-block, .restaurant-card__img {
   height: calc(var(--height) * 0.7);
+}
+.restaurant-card__img {
   width: 100%;
   object-fit: cover;
   transition: 0.3s;
