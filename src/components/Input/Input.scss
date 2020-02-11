@@ -2,11 +2,12 @@
 
 .control {
   &__input-wrapper {
-    @extend %flex-row-center; 
+    @extend %flex-row-center;
 
-    padding: 11px 16px;
-  
+    padding: 10px;
+
     border: 1px solid $color-gray;
+    border-radius: 4px;
     transition: border-color 300ms;
   }
 
@@ -14,7 +15,7 @@
     border-color: darken($color-gray, 20);
   }
 
-  &__icon { 
+  &__icon {
     width: 14px;
     height: 14px;
 
@@ -25,17 +26,15 @@
     max-height: 24px;
     line-height: 24px;
 
-    // &--small {
-      @media (max-width: $break-point-tablet-lg) {
-        max-width: 75px;
-      }
-    // }   
+    @media (max-width: $break-point-tablet-lg) {
+      max-width: 75px;
+    }
   }
 
   &__label {
     font-size: 14px;
     color: #626262;
-    
+
     margin-bottom: 8px;
   }
 

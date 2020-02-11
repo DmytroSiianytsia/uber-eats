@@ -1,37 +1,39 @@
 .control__input-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  flex-flow: row nowrap;
+  align-items: center;
+}
 
 .control__input-wrapper {
-  padding: 11px 16px;
+  padding: 10px;
   border: 1px solid #e0e0e0;
-  -webkit-transition: border-color 300ms;
-  transition: border-color 300ms; }
+  border-radius: 4px;
+  transition: border-color 300ms;
+}
 .control--focused {
-  border-color: #adadad; }
+  border-color: #adadad;
+}
 .control__icon {
   width: 14px;
   height: 14px;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 .control__input {
   max-height: 24px;
-  line-height: 24px; }
-  @media (max-width: 956px) {
-    .control__input {
-      max-width: 75px; } }
+  line-height: 24px;
+}
+@media (max-width: 956px) {
+  .control__input {
+    max-width: 75px;
+  }
+}
 .control__label {
   font-size: 14px;
   color: #626262;
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+}
 .control + .control {
-  margin-left: 20px; }
+  margin-left: 20px;
+}
 
 /*# sourceMappingURL=Input.css.map */

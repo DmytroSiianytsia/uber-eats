@@ -12,14 +12,16 @@ export const RestaurantCard = props => {
 
   return (
     <div className="restaurant-card">
-      <img src={imageUrl} alt={title} className="restaurant-card__img" />
+        <div className="restaurant-card__img-block">
+            <img src={imageUrl} alt={title} className="restaurant-card__img" />
+        </div>
       <h2 className="restaurant-card__title">{title}</h2>
-      <div className="restaurant-card__categories">
+      <p className="restaurant-card__categories">
         {categories.join(' • ')}
-      </div>
-      <div className="restaurant-card__eta">
+      </p>
+      <p className="restaurant-card__eta">
         {etaRange}
-      </div>     
+      </p>
     </div>
   );
 };

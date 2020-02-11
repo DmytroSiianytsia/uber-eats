@@ -7,23 +7,27 @@
   width: 100%;
 
   cursor: pointer;
-
-  transition: 400ms;
+  transition: all 1s ease-out;
 
   &:hover {
-    transform: scale(1.02);
-    box-shadow: 0 0 9px #cccccc;    
+    .restaurant-card__img {
+      transform: scale(1.2);
+    }
   }
 
   @media (max-width: $break-point-phone) {
     --height: 330px;
   }
 
+  &__img-block {
+    overflow: hidden;
+  }
+
   &__img {
     height: calc(var(--height) * 0.7);
     width: 100%;
-    
     object-fit: cover;
+    transition: 0.3s;
   }
 
   &__title {

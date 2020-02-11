@@ -38,7 +38,7 @@ button {
   margin: 0 auto;
 
   @media (max-width: $break-point-phone) {
-    padding: 0 20px;
+    padding: 0;
   }
   
   @media (min-width: $break-point-large) {

@@ -10,6 +10,10 @@
 
   background-color: #fff;
 
+  @media (max-width: $break-point-phone) {
+    padding: 16px 15px;
+  }
+
   &__inner {
     @extend %flex-row-center;
   }
@@ -22,6 +26,7 @@
 
     @media (max-width: $break-point-phone) {
       height: 14px;
+
     }
   }
   

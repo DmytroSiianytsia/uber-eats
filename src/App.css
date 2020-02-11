@@ -1,7 +1,8 @@
 .page {
   position: relative;
-  min-height: 100vh;
+  min-height: 65vh;
   padding-top: 40px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
 
 /*# sourceMappingURL=App.css.map */
