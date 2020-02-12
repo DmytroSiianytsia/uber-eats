@@ -5,7 +5,7 @@ import './Input.css';
 export class Input extends PureComponent {
   state = {
     isFocused: false,
-  }
+  };
 
   inputRef = createRef();
 

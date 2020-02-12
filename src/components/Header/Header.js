@@ -36,7 +36,9 @@ export class Header extends Component {
     isMobileDeliveryInfoVisible: false,
   });
 
-  reload = () => document.location.reload(true);
+  reload = () => {
+    document.location.reload(true);
+  };
 
   render() {
     const {
