@@ -11,7 +11,7 @@ export const App = () => (
     <Header />
     <main className="page">
       <div className="content">
-        <RestaurantsListPage />
+        <RestaurantsListPage />        
       </div>
     </main>
     <Footer />

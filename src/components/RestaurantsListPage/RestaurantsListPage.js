@@ -31,7 +31,7 @@ export class RestaurantsListPage extends Component {
         }
 
         return (
-            <div className="restaurants-list" id="restaurants-list">
+            <div className="restaurants-list">
                 {restaurantsData.map(restaurant => {
                     const {
                         uuid,
@@ -51,8 +51,8 @@ export class RestaurantsListPage extends Component {
                             etaRange={etaRange ? etaRange.text : DEFAULT_ETA_RANGE}
                         />
                     )
-                })}
-                <ScrollTop/>
+                })} 
+                <ScrollTop/>               
             </div>
         );
     }

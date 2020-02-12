@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["ScrollTop.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;EAEA;EACA;EAEA;EACA;EAEA;EACA;EACA;EACA;EACA","file":"ScrollTop.css"}
+{
+"version": 3,
+"mappings": "AAEA,kBAAmB;EACjB,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,MAAM;EAEb,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EAEZ,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,GAAG;EAEhB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,OAAO",
+"sources": ["ScrollTop.scss"],
+"names": [],
+"file": "ScrollTop.css"
+}
