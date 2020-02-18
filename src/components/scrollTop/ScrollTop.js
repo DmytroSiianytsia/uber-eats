@@ -26,9 +26,11 @@ class ScrollTop extends Component {
     }
 
     componentDidMount() {
-        document.addEventListener('scroll', () => {
-            this.toggleVisibility()
-        })
+        document.addEventListener('scroll', this.toggleVisibility)
+    }
+
+    componentWillUnmount() {
+        document.removeEventListener('scroll', this.toggleVisibility)
     }
 
     render() {

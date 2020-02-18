@@ -11,7 +11,7 @@ export const RestaurantCard = props => {
   } = props;
 
   return (
-    <div className="restaurant-card">
+    <section className="restaurant-card">
         <div className="restaurant-card__img-block">
             <img src={imageUrl} alt={title} className="restaurant-card__img" />
         </div>
@@ -22,7 +22,7 @@ export const RestaurantCard = props => {
       <p className="restaurant-card__eta">
         {etaRange}
       </p>
-    </div>
+    </section>
   );
 };
 
